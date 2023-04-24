@@ -5,7 +5,7 @@ np.set_printoptions(suppress=True)
 from tabulate import tabulate
 #np.set_printoptions(formatter={'all':lambda x: str(fractions.Fraction(x).limit_denominator())})
 max_value = np.finfo(np.float64).max
-def lp_cons(a,b,C,filename='file.lp'):
+def lp_cons(a,b,C,filename='file_test.lp'):
     '''
     Construct an lp file from problem vectors a,b and C
     '''
